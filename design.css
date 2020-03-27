@@ -1,0 +1,207 @@
+html {
+    background-color: white;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 20%;
+}
+
+head {
+    
+    margin: 0;
+    height: auto;
+    width: auto;
+    font-size: 100;
+}
+img {
+    content: url(night_plovdiv_new.png);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+desc_img {
+    position: relative;
+    content: url(Plovdiv_panorama.jpg);
+    width: 100%;
+    height: 35vw;
+    opacity: 0.35;
+    display: block;
+    margin-bottom: 3vw;
+}
+
+p {
+    position: absolute;
+    display: inline-block;
+    margin-top: -35%;
+    margin-bottom: 2vw;
+    font-family: Herculanum;
+    font-size: 2vw;
+    color: indigo;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 4vw;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;    
+}
+ 
+info_header {
+    position: relative;
+    font-family: Herculanum;
+    font-size: 5vw;
+    margin-left: 22vw;
+    margin-bottom: 10%;
+    color: indigo;
+}
+
+block1 {
+    position: relative;
+    width: 47vw;
+    height: 33vw;
+    margin-top: 3vw;
+    margin-right: 1vw;
+    margin-left: 1.5vw;
+    margin-bottom: 2vw;
+    content: url(theater_performance.png);
+}
+
+block2 {
+    position: relative;
+    width: 47vw;
+    height: 33vw;
+    margin-top: 3vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-bottom: 2vw;
+    content: url(plovdiv_center.png);
+}
+
+
+ block3 {
+    position: relative;
+    width: 47vw;
+    height: 33vw;
+    margin-top: 3vw;
+    margin-right: 1vw;
+    margin-left: 1.5vw;
+    margin-bottom: 2vw;
+    content: url(plovdiv_stadium.png);
+}
+
+block4 { 
+    position: relative;
+    width: 47vw;
+    height: 33vw;
+    margin-top: 3vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-bottom: 2vw;
+    content: url(plovdiv_mounts.png);
+} 
+
+ block5 {
+    position: relative;
+    width: 47vw;
+    height: 33vw;
+    margin-top: 3vw;
+    margin-right: 1vw;
+    margin-left: 1.5vw;
+    margin-bottom: 2vw;
+    content: url(plovdiv_sitovo.png);
+}
+
+block6 {
+    position: relative;
+    width: 47vw;
+    height: 33vw;
+    margin-top: 3vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-bottom: 2vw;
+    content: url(plovdiv_night.png);
+} 
+
+map_header {
+    font-family: Herculanum;
+    font-size: 50px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom:  50px;
+    padding: 30px;
+    font-weight: 900;
+    color: indigo;
+    text-align: center;
+}
+
+video_header {
+    font-family: Herculanum;
+    font-size: 50px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    color: indigo;
+    text-align: center;
+}
+
+
+/* Change the background color when mouse over items */
+nav li:hover {
+    color:#fff; background:#666666; opacity:0.4;
+}
+/* display the submenu on mouse over main menu item*/
+nav li:hover > ul{
+    position: absolute;
+    display : block;
+}
+
+ nav {
+    background-color: indigo;
+    margin: 0;
+    text-align: center;
+    text-indent: auto;
+    overflow: hidden;
+} 
+
+nav ul{
+    margin: 0;
+    padding: 0;
+} 
+nav ul li {
+    /* This allow us to arrange list items in a row, without using float */
+    display: inline-block;
+    list-style-type: none;
+}
+ 
+/* Create a style for the first level items */
+nav > ul > li > a {
+    color:white;
+    font-family: Herculanum;
+    font-size: 33px;
+   /* background-color: darkgray ;*/
+    display: block;
+    line-height: 1em;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+nav li > ul li{
+    display: block;
+}
+ 
+
+
+
+
+
+
+
+
+
