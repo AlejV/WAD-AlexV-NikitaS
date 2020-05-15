@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Login</title>
- <link rel="stylesheet" href="css/style.css" /> 
+ <link rel="stylesheet" href="style.css" /> 
 </head>
 <body>
 <?php
@@ -26,7 +26,8 @@ and Password='$password' and UserRole = 'user'";
         if($rows==1){
      $_SESSION['username'] = $username;
             // Redirect user to index.php
-     header("Location: index_user.php");
+     header("Location: profile_user.php");
+     exit();
 
          }else{
  		$query = "SELECT * FROM `users_plovdiv` WHERE Email='$username'
@@ -36,14 +37,15 @@ and Password='$password' and UserRole = 'admin'";
  if($rows==1){
      $_SESSION['username'] = $username;
             // Redirect user to index.php
-     header("Location: index_admin.php");
+     header("Location: profile_user.php");
+     exit();
  } else {
  	echo "<div class='form'>
 <h3>Username/password is incorrect.</h3>
 <br/>Click here to <a href='login.php'>Login</a></div>";
 
+  }
  }
-    }
 }else{ 
 
     	
@@ -53,9 +55,11 @@ and Password='$password' and UserRole = 'admin'";
 <form action="" method="post" name="login">
 <input type="username" name="username" placeholder="Username" required />
 <input type="password" name="password" placeholder="Password" required />
-<input name="submit" type="submit" value="Login" />
+<input name="submit" type="submit" value="LOGIN" />
 </form>
+<div class="container login">
 <p>Dont have an account? <a href="registration.php">Register</a>.</p>
 <?php } ?>
+</div>
 </body>
 </html>

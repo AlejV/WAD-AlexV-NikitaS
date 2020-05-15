@@ -1,0 +1,70 @@
+
+body {
+  width:100%;
+    }
+h1 {
+     font-family: Helvetica;
+     margin: 0 auto;     
+     color: white; 
+}
+    
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+.form{
+     width: 300px;
+     margin-top: 5vw;
+     margin-left: 40vw;
+}
+input[type='username'],
+input[type='password'] {
+     width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type='submit']{
+     background-color: indigo;  
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 110%;
+  opacity: 0.9;
+}
+input[type='submit']:hover {
+     opacity:1;
+}
+
+.container {
+  width: 40%; 
+  color:indigo;
+  font-family: Verdana;
+  margin-left: 30%;
+  margin-right: auto;
+  padding: 16px;
+  position: 50%;
+  text-align: center;
+}
+
+.login {
+  background-color: #f1f1f1;
+  text-align: center;
+  width: 100%;
+  margin-left: 0;
+  height:6vw; 
+}

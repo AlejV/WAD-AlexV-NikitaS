@@ -13,16 +13,16 @@ head {
     
     margin: 0;
     height: auto;
-    width: auto;
+    width: 100%;
     font-size: 100;
 }
-img {
+.image {
     content: url(night_plovdiv_new.png);
     max-width: 100%;
-    max-height: 100%;
+    max-height: auto;
 }
 
-desc_img {
+.description_img, .desc_img {
     position: relative;
     content: url(Plovdiv_panorama.jpg);
     width: 100%;
@@ -32,121 +32,153 @@ desc_img {
     margin-bottom: 3vw;
 }
 
-p {
-    position: absolute;
-    display: inline-block;
-    margin-top: -35%;
-    margin-bottom: 2vw;
+.description_text , .p {
+        width:80%;
+        font-family: Herculanum;
+        font-size: 2vw;
+        line-height: 2em;
+        position: relative;
+        margin-top: -32vw;
+        margin-bottom:  5%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 100;
+        color: indigo;
+        text-align: center;
+} 
+
+.title1, .h1 {
     font-family: Herculanum;
     font-size: 2vw;
-    color: indigo;
-    font-weight: 100;
-    text-transform: uppercase;
-    line-height: 4vw;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;    
-}
- 
-info_header {
     position: relative;
-    font-family: Herculanum;
-    font-size: 5vw;
-    margin-left: 22vw;
-    margin-bottom: 10%;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    font-weight: 100;
     color: indigo;
+    text-align: center;
 }
 
 block1 {
     position: relative;
-    width: 47vw;
-    height: 33vw;
+    max-width: 45%;
+    width: 40vw;
+    height: 25vw;
     margin-top: 3vw;
     margin-right: 1vw;
-    margin-left: 1.5vw;
+    margin-left:2vw;
     margin-bottom: 2vw;
     content: url(theater_performance.png);
 }
 
+@media only screen and (max-width: 500px){
+     block1{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 35%;
+    margin-left: 0;
+    margin-right: 0;
+    content: url(theater_performance.png);
+    }
+}
+
 block2 {
     position: relative;
-    width: 47vw;
-    height: 33vw;
+    max-width: 45%;
+    width: 40vw;
+    height: 25vw;
     margin-top: 3vw;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
     margin-bottom: 2vw;
     content: url(plovdiv_center.png);
-}
-
-
- block3 {
-    position: relative;
-    width: 47vw;
-    height: 33vw;
-    margin-top: 3vw;
-    margin-right: 1vw;
-    margin-left: 1.5vw;
-    margin-bottom: 2vw;
-    content: url(plovdiv_stadium.png);
-}
-
-block4 { 
-    position: relative;
-    width: 47vw;
-    height: 33vw;
-    margin-top: 3vw;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-    margin-bottom: 2vw;
-    content: url(plovdiv_mounts.png);
 } 
 
- block5 {
+@media only screen and (max-width: 500px){
+     block2{
     position: relative;
-    width: 47vw;
-    height: 33vw;
-    margin-top: 3vw;
-    margin-right: 1vw;
-    margin-left: 1.5vw;
-    margin-bottom: 2vw;
-    content: url(plovdiv_sitovo.png);
+    max-width: 100%;
+    width: 100%;
+    height: 35%;
+    margin-left: 0;
+    margin-right: 0;
+    content: url(plovdiv_center.png);
+    }
 }
 
-block6 {
+block3 {
     position: relative;
-    width: 47vw;
-    height: 33vw;
+    max-width: 45%;
+    width: 40vw;
+    height: 25vw;
     margin-top: 3vw;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
+    margin-right: 1vw;
+    margin-left:2vw;
     margin-bottom: 2vw;
-    content: url(plovdiv_night.png);
+    content: url(theater_performance.png);
+}
+
+@media only screen and (max-width: 500px){
+     block3{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 35%;
+    margin-left: 0;
+    margin-right: 0;
+    content: url(theater_performance.png);
+    }
+}
+
+block4 {
+    position: relative;
+    max-width: 45%;
+    width: 40vw;
+    height: 25vw;
+    margin-top: 3vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vw;
+    content: url(plovdiv_center.png);
 } 
 
-map_header {
+@media only screen and (max-width: 500px){
+     block4{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 35%;
+    margin-left: 0;
+    margin-right: 0;
+    content: url(plovdiv_center.png);
+    }
+}
+
+
+
+.map_header {
     font-family: Herculanum;
-    font-size: 50px;
+    font-size: 2vw;
     position: relative;
-    margin-top: 20px;
-    margin-left: 500px;
-    margin-bottom:  50px;
-    padding: 30px;
+    margin-top: 5vw;
+    margin-bottom:  5vw;
     font-weight: 900;
     color: indigo;
+    margin-left: 30vw;
     text-align: center;
 }
 
-video_header {
+.video_header {
     font-family: Herculanum;
-    font-size: 50px;
+    font-size: 2vw;
     position: relative;
-    margin-top: 20px;
-    margin-left: 300px;
-    margin-bottom: 50px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 10%;
     font-weight: 900;
     color: indigo;
     text-align: center;
+    
 }
 
 
@@ -182,7 +214,7 @@ nav ul li {
 nav > ul > li > a {
     color:white;
     font-family: Herculanum;
-    font-size: 33px;
+    font-size: 2vw;
    /* background-color: darkgray ;*/
     display: block;
     line-height: 1em;
@@ -197,7 +229,19 @@ nav li > ul li{
 }
  
 
-
+table {
+border-collapse: collapse;
+width: 100%;
+color: #588c7e;
+font-family: monospace;
+font-size: 1vw;
+text-align: center;
+}
+th {
+background-color: #588c7e;
+color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2}
 
 
 
