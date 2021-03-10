@@ -1,1 +1,1 @@
-# WAD-AlexV-NikitaS
+# WAD
